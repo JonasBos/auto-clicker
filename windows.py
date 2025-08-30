@@ -12,8 +12,3 @@ class WindowsMouseController(MouseController):
 
     def detectInterrupt(self):
         return win32api.GetAsyncKeyState(win32con.VK_RBUTTON)
-
-    def getMouseLocation(self):
-        x, y = win32api.GetCursorPos()
-
-        return x, y
