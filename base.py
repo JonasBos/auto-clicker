@@ -1,9 +1,12 @@
-class MouseController():
+class Controller():
     def __init__(self):
         pass
 
-    def click(self):
+    def click_keyboard(self, button_list):
         pass
 
-    def detectInterrupt(self):
+    def click_left(self):
+        pass
+
+    def detectRightclick(self):
         pass

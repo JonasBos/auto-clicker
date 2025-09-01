@@ -5,8 +5,8 @@ from ui import App
 
 def main():
     if sys.platform.startswith('win'):
-        from windows import WindowsMouseController
-        mouse = WindowsMouseController()
+        from windows import WindowsController
+        mouse = WindowsController()
     else:
         raise NotImplementedError("This OS is not supported yet.")
 
